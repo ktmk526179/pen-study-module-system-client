@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import pen.study.core.Array2Stdout;
-import pen.study.internal.util.Array2StringUtil;
+//import pen.study.internal.util.Array2StringUtil;
 
 /**
  * クライアント側想定のメインクラス
@@ -32,7 +32,7 @@ public class ClientMain {
 	Array2Stdout.stdout(listArgs);
 
 	// モジュールシステムが導入されるまでは、publicであれば呼び出せた
-	//Array2StringUtil.array2String(listArgs);
+	// Array2StringUtil.array2String(listArgs);
 
     }
 
